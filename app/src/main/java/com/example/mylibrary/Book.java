@@ -14,7 +14,7 @@ public class Book {
     private boolean isExpanded;
 
     /**
-     * Book constructor:
+     * Creates an instance of the Book class.
      * @param id The books ID.
      * @param name The name of the book.
      * @param author The author of the book.

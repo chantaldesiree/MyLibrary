@@ -66,6 +66,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="162dp"
                 android:text="Book Name:"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline5"
                 app:layout_constraintTop_toBottomOf="@+id/imgBookSingle" />
 
@@ -75,6 +77,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Author:"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline5"
                 app:layout_constraintTop_toBottomOf="@+id/lblBookName" />
 
@@ -84,6 +88,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Pages:"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline5"
                 app:layout_constraintTop_toBottomOf="@+id/lblAuthorNameSingle" />
 
@@ -93,6 +99,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Here is the short description."
+                android:textStyle="italic"
                 app:layout_constraintStart_toStartOf="@+id/guideline5"
                 app:layout_constraintTop_toBottomOf="@+id/lblPagesSingle" />
 
@@ -102,6 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Here is a much longer description of the book that takes up more space than you think that it would."
+                android:textStyle="italic"
                 app:layout_constraintEnd_toStartOf="@+id/guideline7"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -112,6 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="The Mysterious"
+                android:textStyle="italic"
                 app:layout_constraintStart_toStartOf="@+id/guideline6"
                 app:layout_constraintTop_toTopOf="@+id/lblBookName" />
 
@@ -120,6 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Chantal"
+                android:textStyle="italic"
                 app:layout_constraintStart_toStartOf="@+id/guideline6"
                 app:layout_constraintTop_toTopOf="@+id/lblAuthorNameSingle" />
 
@@ -128,6 +138,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="150"
+                android:textStyle="italic"
                 app:layout_constraintStart_toStartOf="@+id/guideline6"
                 app:layout_constraintTop_toTopOf="@+id/lblPagesSingle" />
 
